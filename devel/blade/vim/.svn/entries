@@ -1,0 +1,37 @@
+10
+
+dir
+10
+svn://192.168.15.40/devel/blade/vim
+svn://192.168.15.40
+
+
+
+2013-09-25T06:31:10.627860Z
+2
+zhangaiqi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+17e2fcb3-d966-4a2a-98cf-e28043cfa608
+
+indent
+dir
+
+ftdetect
+dir
+
+syntax
+dir
+
