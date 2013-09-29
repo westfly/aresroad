@@ -22,6 +22,9 @@ class CircleBuffer {
   }
   size_t WriteLine(const char* buf) {
     size_t len = strlen(buf);
+    if (len <=0) {
+      return 0;
+    }
     return Write(buf, len);
   }
   size_t Write(const std::string& str) {
@@ -42,7 +45,8 @@ class CircleBuffer {
     return len;
   }
   size_t Read(char*buf, size_t len) {
-    if (!length_) {
+    if (length_ <= 0) {
+      VLOG(1)<< "not readable";
       return 0;
     }
     char* ptr = strncpy(buf, buffer_.get(), len);

@@ -1,110 +1,0 @@
-10
-
-dir
-10
-svn://192.168.15.40/devel/blade/src/test/testdata
-svn://192.168.15.40
-
-
-
-2013-09-25T06:31:10.627860Z
-2
-zhangaiqi
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-17e2fcb3-d966-4a2a-98cf-e28043cfa608
-
-test_test_runner
-dir
-
-test_cc_library
-dir
-
-test_resource_library
-dir
-
-test_java_jar
-dir
-
-test_dependency
-dir
-
-test_loadbuilds
-dir
-
-test_cc_test
-dir
-
-test_proto_library
-dir
-
-test_lex_yacc
-dir
-
-test_cc_binary
-dir
-
-BLADE_ROOT.TEST
-file
-
-
-
-
-2013-09-10T06:40:44.000000Z
-d33718c76e0a29dcea3b158785c2b58b
-2013-09-25T06:31:10.627860Z
-2
-zhangaiqi
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2663
-
-thirdparty
-dir
-
-test_swig_library
-dir
-
-test_prebuild_cc_library
-dir
-
-test_gen_rule
-dir
-
-test_cc_plugin
-dir
-
-test_query
-dir
-
